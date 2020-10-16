@@ -1,0 +1,232 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(107, 101, 95, 0.2);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  padding: 18px 0;
+}
+
+header nav span {
+  font-size: 18px;
+  color: #292929;
+}
+
+header nav img {
+  width: 147px;
+}
+
+section.questions-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto 130px;
+}
+
+.questions-container h1 {
+  font-size: 40px;
+  color: #292929;
+}
+
+.questions-container p {
+  margin: 20px 0 30px;
+}
+.question {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.question.correct {
+  border-color: rgb(0, 148, 0);
+}
+
+.question.incorrect {
+  border-color: red;
+}
+
+.question .text {
+  font-family: "Source Code Pro", monospace;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 15px 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.button-container .choice {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.button-container .choice:hover {
+  border-color: dodgerblue;
+  color: dodgerblue;
+}
+
+.question .explanation {
+  margin-top: 30px;
+}
+
+.question .explanation.correct {
+  color: rgb(0, 148, 0);
+}
+
+.question .explanation.incorrect {
+  color: red;
+}
+
+.button-container .choice.correct {
+  color: white;
+  border-color: rgb(0, 148, 0);
+  background-color: rgb(0, 148, 0);
+}
+
+.button-container .choice.incorrect {
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid black;
+  position: fixed;
+  top: calc(100vh - 100px);
+  left: 0;
+  background: white;
+}
+
+footer .score-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100px;
+  align-items: center;
+}
+
+.score-container p {
+  font-size: 24px;
+  color: rgb(58, 58, 58);
+}
+
+.score-container p span {
+  font-size: 30px;
+  color: rgb(0, 177, 38);
+  margin: 0 10px;
+}
+
+.linked-banner {
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(0, 177, 38);
+  color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.bucket-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.bucket {
+  height: 400px;
+  width: 75px;
+  border: 3px solid rgb(104, 104, 104);
+  border-top: none;
+  border-radius: 0 0 37px 37px;
+  overflow: hidden;
+}
+
+.water {
+  width: 75px;
+  height: 410px;
+  background-image: linear-gradient(rgb(0, 255, 0), blue);
+  background-position: 50% 100%;
+}
+
+.air {
+  height: 400px;
+  width: 75px;
+  background: white;
+  position: relative;
+  top: -410px;
+  transition: top 3s linear;
+  z-index: 999;
+}
+
+.markings {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  position: relative;
+}
+
+.markings p {
+  margin: 0;
+  position: absolute;
+  left: 3px;
+}
+
+.empty {
+  top: 358px;
+  color: white;
+}
+
+.quarter {
+  top: 310px;
+  color: white;
+}
+
+.half {
+  top: 210px;
+  color: white;
+}
+
+.three-quarter {
+  top: 110px;
+  color: white;
+}
+
+.full {
+  top: 30px;
+}
+
+.splash {
+  position: relative;
+  left: -10px;
+  top: 5px;
+  visibility: hidden;
+}
+
+.message-container {
+  padding: 50px;
+}
+
+.message {
+  font-size: 48px;
+  color: red;
+}
+
+.sub-message {
+  font-size: 18px;
+}
