@@ -33,7 +33,7 @@ Before you open the project, one thing to note. A LOT of code has already been w
 
 [Write Your Answer Here]
 
-4. In the `for loop` on lines 25 - 39, will this code run? If not where is the error?
+4. In the `for loop` on lines 25 - 29, will this code run? If not where is the error?
 
 [Write Your Answer Here]
 
