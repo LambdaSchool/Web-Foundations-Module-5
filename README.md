@@ -43,7 +43,7 @@ The `Try it Out` portion of this project will take place in two parts.
 
 **Part One:** The first part is located in the `index.js` file.
 
-- Comment out (or delete) the code on lines 2-34.
+- Comment out (or delete) the code on lines 2-30.
 - Starting on line 38 you will find your instructions.
 - When you complete the instructions, link to the `index.js` file in your `index.html` file.
 - Open `index.html` in your browser.
