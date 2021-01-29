@@ -89,4 +89,4 @@ An impactful technique in learning something new is attempting to reiterate the 
 
 ### Complete the Assignment
 
-Once you are completed with all of the above exercises, find the Folder `Web-Foundations-Module-3` in your Finder or My Computer. Right-click on the folder and select "Compress Web-Foundations-Module-3". This will create a .zip file. Upload this .zip file to Canvas the same way you uploaded your .txt file yesterday.
+Once you are completed with all of the above exercises, find the Folder `Web-Foundations-Module-5` in your Finder or My Computer. Right-click on the folder and select "Compress Web-Foundations-Module-5". This will create a .zip file. Upload this .zip file to Canvas the same way you uploaded your .txt file yesterday.
