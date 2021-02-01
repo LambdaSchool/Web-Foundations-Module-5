@@ -301,7 +301,7 @@ let sample = "a";
 for(let i = 1; i <= 3; i++ ){
   sample = sample + "a";
 }`,
-    "two",
+    "three",
     "The loop runs three times, each time 'a' is added to sample.",
     [
       { text: "a", id: "zero" },
